@@ -3,11 +3,13 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}134119f1b4342ab06d4d10430f34669aa8e8656a1e2854117114c56a146ce4bb'
+    # password: '{cipher}134119f1b4342ab06d4d10430f34669aa8e8656a1e2854117114c56a146ce4bb'
+    password: '{cipher}AQA0xQACE31xnRZSRSAZlAb5S4qMbb5Tu0TjLP87jpUcJ3CJnITDlig4BPiPI519HVkBCNTMagBjIiicZG6K2vNGUKjZHOVFyALiKCjcbxd76k+Jr6Z+eqGRwhSBNy8llhhkS4ddri5IKxITS9R0lImlrEUfosOSlemvwVsc0spyez23ZS6UbnvXOenvxA90bwPbm4vxFxV1D5GXpaBPl9EqXcIpQT9oUmxulEe+bFL4NCeWBbVdd7agxX6q+r/imtOZN8ybRyIgIdK0uMZIFYWWfi0saZBTBk1O97khakJNb2hDOo9cfyQiGshRJqmsCwBbIYiCK+2LBoCK6JxBe1IMRuYoi9W+920r+zItFfdMIdw2EiaHepRSh4fOQnF2x6s='
 
 token:
   expiration_time: 86400000
-  secret: user_token_native_user-service
+  # secret: user_token_native_user-service
+  secret: '{cipher}AQA8SdNGw9ytb3yAYPppWARa/Ur39a/hzckvtpR86snDJjqPYBuKYaVoc8mcV2uaKe6XpGaw4Iv7wjyYHzFlCZmBuFZtyyfq/eMHHpqDpHwtgxLfYdiVkjA5nnEyKnXO429juVa/PWcb3+h9RUAy4yHX6rpI3vSJw3/z22Vtbk7GBCLjR1uZSM0pkB/UcfmngTc5SPzrUcZ3U8tB1+JdpVftCU90SQRjCUfSpsxLxqM78vkWYMRNZZF+sYYZ7nBXL+yn7+kJYx/JrZ8kl3d6RN9869HRcDd6G+vinhnosifq1OmXhdT1eCkRW0Ryv9YsVrTgFadjLix2QzpYNc71pnwmXTdKz14Nrxs1+eVeV1BE0Eb4eK1OCY7WgF3mkDaCkMYr3JugGPjqzcNzYY4tU4IO'
 
 gateway:
   ip: 172.0.0.1
