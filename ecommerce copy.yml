@@ -1,0 +1,7 @@
+token:
+  expiration_time: 86400000
+  # secret: user_token_native_ecommerce
+  secret: '{cipher}AQA8SdNGw9ytb3yAYPppWARa/Ur39a/hzckvtpR86snDJjqPYBuKYaVoc8mcV2uaKe6XpGaw4Iv7wjyYHzFlCZmBuFZtyyfq/eMHHpqDpHwtgxLfYdiVkjA5nnEyKnXO429juVa/PWcb3+h9RUAy4yHX6rpI3vSJw3/z22Vtbk7GBCLjR1uZSM0pkB/UcfmngTc5SPzrUcZ3U8tB1+JdpVftCU90SQRjCUfSpsxLxqM78vkWYMRNZZF+sYYZ7nBXL+yn7+kJYx/JrZ8kl3d6RN9869HRcDd6G+vinhnosifq1OmXhdT1eCkRW0Ryv9YsVrTgFadjLix2QzpYNc71pnwmXTdKz14Nrxs1+eVeV1BE0Eb4eK1OCY7WgF3mkDaCkMYr3JugGPjqzcNzYY4tU4IO'
+
+gateway:
+  ip: 172.0.0.1
